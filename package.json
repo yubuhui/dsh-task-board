@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Task board you manage by hand: create, assign to Sessions, track status, priority, due date, notes and multi-level subtasks; create a Session from a chosen Workspace with an initial requirement; the agent may read the board and open a new-task card that only the user confirms",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
