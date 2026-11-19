@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# 本地环境与编辑器
+.env
+.env.local
+.idea/
+.vscode/
+AGENTS.local.md
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Task board",
+    "description": "Registers a Tasks tab in the right sidebar, so the main area keeps the real conversation while the board stays beside it: tasks with nested subtasks, move, status, priority, due date, progress note, several assigned Sessions, and creating a Session for a task from a chosen workspace plus an initial requirement. Records are stored on this machine and survive restarts.",
+    "detail": "docs/DETAIL.md"
+  }
+}

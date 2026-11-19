@@ -1,0 +1,28 @@
+{
+  "name": "@local/dsh-task-board",
+  "version": "4.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Task board you manage by hand: create, assign to Sessions, track status, priority, due date, notes and multi-level subtasks; create a Session from a chosen Workspace with an initial requirement; the agent may read the board and open a new-task card that only the user confirms",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

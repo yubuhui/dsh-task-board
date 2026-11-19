@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" role="img" aria-label="Task board">
+  <rect x="6.5" y="6.5" width="23" height="23" rx="5" stroke="#2f6feb" stroke-width="2.2"/>
+  <rect x="11" y="11.6" width="7.4" height="2.4" rx="1.2" fill="#2f6feb"/>
+  <rect x="11" y="16.8" width="14" height="2.4" rx="1.2" fill="#9db8f0"/>
+  <path d="M11.4 24.6l2.4 2.4 5.2-5.4" stroke="#2f6feb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
